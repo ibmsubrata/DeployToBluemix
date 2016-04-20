@@ -2,7 +2,7 @@ applications:
 - path: .
   memory: 256M
   instances: 1
-  domain: mycloud.com
+  domain: mybluemix.net
   name: TestNJS
   host: TestNJS
   disk_quota: 1024M
