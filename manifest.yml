@@ -1,4 +1,10 @@
+declared-services:
+   dashDBTest:
+      label: dashDB
+      plan : Entry 
 applications:
+  services:
+    - dashDBTest 
 - path: .
   memory: 256M
   instances: 1
@@ -6,3 +12,4 @@ applications:
   name: TestNJS
   host: TestNJS
   disk_quota: 1024M
+  
