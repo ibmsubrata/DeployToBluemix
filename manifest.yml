@@ -3,7 +3,8 @@ declared-services:
       label: dashDB
       plan : Entry 
 applications:
-- path: .
+- services:
+  - dashDBTest 
   memory: 256M
   instances: 1
   domain: mybluemix.net
