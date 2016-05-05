@@ -2,8 +2,7 @@
 stages:
 - name: Build Stage
   inputs:
-  -url: https://github.com/ibmsubrata/TestToolchain.git
-   type: git
+  - type: git
     branch: master
   triggers:
   - type: commit
